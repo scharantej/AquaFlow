@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HydraNest Rainwater Harvesting System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>HydraNest Rainwater Harvesting System</h1>
+<h2>Calculate the recommended tank size and number of modules for your home</h2>
+<form action="/predict" method="post">
+<label for="consumption">Average daily water consumption (in liters):</label>
+<input type="number" name="consumption" id="consumption" required>
+<br>
+<label for="space">Available space for the system (in square meters):</label>
+<input type="number" name="space" id="space" required>
+<br>
+<input type="submit" value="Calculate">
+</form>
+</body>
+</html>
+
